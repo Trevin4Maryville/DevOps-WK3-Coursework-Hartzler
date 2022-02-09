@@ -8,7 +8,7 @@ http.createServer(function (request, response) {
    response.writeHead(200, {'Content-Type': 'text/plain'})
 
    // Send the response body as "Hello World"
-   response.end('This Is a Test to change the text on this program for Week #4!\n')
+   response.end('This Is a Test to change the text on this program for Week #3!\n')
 }).listen(3333)
 
 // Console will print the message
